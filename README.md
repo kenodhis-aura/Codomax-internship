@@ -14,7 +14,7 @@ This repository contains the practical implementation, architectural notes, and 
 
 ---
 
-## 🛠️ Deep Dive & Implementation Details
+##  Deep Dive & Implementation Details
 
 ### Task 1 & 2: AWS IAM & Cloud Security Philosophy
 * **Principle of Least Privilege (PoLP):** Implemented access controls by ensuring identities are granted *only* the minimum system permissions required to execute their specific functions.
@@ -55,7 +55,7 @@ The deployment can be verified by routing traffic directly to the Public IP addr
 
 
 
-## 📦 AWS Cloud Learning Journey: Module 03 (Days 11–15)
+##  AWS Cloud Learning Journey: Module 03 (Days 11–15)
 
 ### Project Overview
 This module transitions from host-level server hosting (EC2) into cloud-native, serverless object storage using **Amazon Simple Storage Service (Amazon S3)**. The core deliverable for this module is a globally accessible, high-performance static portfolio website deployed directly on S3 without the overhead of an underlying operating system or web daemon.
@@ -71,7 +71,7 @@ This module transitions from host-level server hosting (EC2) into cloud-native, 
 
 ---
 
-### 🛠️ Technical Implementation & Architectural Choices
+###  Technical Implementation & Architectural Choices
 
 #### 1. Global Namespaces & Configuration
 * **Global Uniqueness:** Provisioned an S3 storage container with a globally unique bucket identifier, aligning with the AWS DNS namespace rules.
@@ -92,6 +92,6 @@ Flipped the S3 native hosting engine parameters to instruct the global endpoint 
 
 ---
 
-### 🚀 Verification & Live Deliverables
+###  Verification & Live Deliverables
 * **Deployment Method:** Serverless AWS Object Storage Engine
 * **Infrastructure Configuration:** See `/s3-config/bucket-policy.json`
